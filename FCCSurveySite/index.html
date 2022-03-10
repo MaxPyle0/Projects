@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">
+            Coding Class Students
+        </h1>
+        <p class="blurb">Let your voice be heard and tell us how it went for you</p>
+    <header>
+
+    <main>
+        <form id="surveyform" class="surveyform">
+            <section class="textin">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" min="15" max="100">
+            </section>
+            
+            <section class="dropdown">
+                <label class="dropwdownlabel" for="bestlang">What language are you most proficient in?</label>
+                <select id="bestlang" class="dropdown" type="dropdown" name="bestlang">
+                    <option value="C">C</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                </select>
+
+                <label class="dropwdownlabel" for="newlang">What language are you looking to become proficient in?</label>
+                <select id="newlang" class="dropdown" type="dropdown" name="newlang">
+                    <option value="C">C</option>
+                    <option value="Javascript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                </select>
+            </section>
+
+            <section class="radiobutts">
+                <p>What is your current employment status?</p>
+                <input type="radio" name="employment" id="fulltime" value="fulltime" class="radio">
+                <label for="fulltime">Full time</label>
+                <br>    
+                <input type="radio" name="employment" id="parttime" value="parttime" class="radio">
+                <label for="parttime">Part time</label>
+                <br>
+                <input type="radio" name="employment" id="student" value="student" class="radio">
+                <label for="student">Student</label>
+                <br>
+                <input type="radio" name="employment" id="unemployed" value="unemployed" class="radio">
+                <label for="unemployed">Unemployed</label>
+            </section>
+
+            <input type="submit" id="submit" class="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>

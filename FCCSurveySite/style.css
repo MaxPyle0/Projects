@@ -1,0 +1,74 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4vw;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 191, 255, 1);
+    color: white;
+    border: 1px solid white;
+}
+
+main {
+    padding: 3rem 20%;
+}
+
+.title {
+    text-align: center;
+    margin: 3rem auto;
+    padding: 2rem auto;
+}
+
+.blurb {
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem auto;
+}
+
+label {
+    padding: 0.5rem 0 0.3rem 0;
+    display: block;
+}
+input {
+    width: 100%;
+    height: auto;
+    margin: 0.1rem 0 0.3rem 0;
+    display: block;
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    margin: 1rem 50%;
+}
+
+select {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+}
+
+.surveyform {
+    background-color: black;
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
+    padding: 3% 3%;
+    border-radius: 25px;
+}
+
+.radiobutts label {
+    display: inline;
+}
+
+.radiobutts input {
+    width: 1rem;
+    display:inline;
+    text-align: left;
+}
