@@ -1,0 +1,49 @@
+html {
+    font-size: 15px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.headerlogo {
+    width: auto;
+    height: 2rem;
+}
+
+.nav-bar {
+    font-size: 2rem;
+    float: right;
+    display: flex;
+    column-gap: 50px;
+}
+
+#subtitle {
+    font-style: italic;
+}
+
+.form-group * {
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.features {
+    display: block;
+    margin: 0 auto;
+    width:400px;
+    height: auto;
+}
+
+.grid {
+    display: flex;
+}
+
+.icon {
+    top: 50%;
+    left: 50%;
+    height: 3rem;
+    width: auto;
+    margin: 50% 0;    
+    padding: 0 1rem 0 0;
+}
+
