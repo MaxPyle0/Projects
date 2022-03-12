@@ -8,13 +8,13 @@
     box-sizing: border-box;
 }
 
-body {
+body {    
+    background-image: linear-gradient(rgba(5, 123, 233, 0.61), rgba(5, 123, 233, 0.61)), url("media/bg1.jpg");
+    background-size: 100%;
     font-size: 1.4vw;
     width: 100%;
     height: auto;
-    background-color: rgba(0, 191, 255, 1);
     color: white;
-    border: 1px solid white;
 }
 
 main {
@@ -57,18 +57,67 @@ select {
 }
 
 .surveyform {
-    background-color: black;
+    background-color: rgba(136, 130, 130, 0.8);
     box-shadow: 5px 5px rgba(255, 255, 255, 0.5);
     padding: 3% 3%;
     border-radius: 25px;
 }
 
-.radiobutts label {
+.radiobutts label,
+.checkboxes label {
     display: inline;
 }
 
-.radiobutts input {
+.radiobutts input,
+.checkboxes input {
     width: 1rem;
     display:inline;
     text-align: left;
 }
+
+.radiobutts p,
+.checkboxes p {
+    margin: 1rem 0 0 0;
+}
+
+#comments {
+    width: 100%;
+}
+
+@media only screen and (max-width:500px){
+    
+    main {
+      padding: 0;
+      }
+    .title {
+        text-align: center;
+        margin: 0.5rem auto;
+        padding: 0.5rem auto;
+    }
+    
+    .blurb {
+        text-align: center;
+        margin: 0.5rem auto;
+        padding: 0.5rem auto;
+    }
+}
+
+
+
+@media only screen and (min-width:501px) and (max-width:800px){
+    main {
+      padding: 0 10%;
+      }
+    .title {
+        text-align: center;
+        margin: 1rem auto;
+        padding: 0.0 auto;
+    }
+    
+    .blurb {
+        text-align: center;
+        margin: 0.5rem auto;
+        padding: 0.5rem auto;
+    }
+}
+

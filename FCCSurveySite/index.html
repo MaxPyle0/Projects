@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Document</title>
 </head>
 <body>
@@ -57,6 +57,23 @@
                 <br>
                 <input type="radio" name="employment" id="unemployed" value="unemployed" class="radio">
                 <label for="unemployed">Unemployed</label>
+            </section>
+
+            <section class="checkboxes">
+                <p>What Operating Systems have you used?</p>
+                <input type="checkbox" name="windows" id="windows" value="windows">
+                <label for="windows">Windows</label>
+                <br>
+                <input type="checkbox" name="linux" id="linux" value="linux">
+                <label for="linux">Linux based OS</label>
+                <br>
+                <input type="checkbox" name="mac" id="mac" value="mac">
+                <label for="mac">Mac OS</label>
+            </section>
+
+            <section class="commentsec">
+                <label for="comments">Do you have any suggestions?</label>
+                <textarea name="comments" id="comments"></textarea>
             </section>
 
             <input type="submit" id="submit" class="submit" value="Submit">
